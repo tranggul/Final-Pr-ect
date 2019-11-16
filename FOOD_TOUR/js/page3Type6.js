@@ -237,7 +237,8 @@ if(count > 0 &&count<2){
        
         // first.addEventListener("click", () => {
             firstMenu.insertAdjacentHTML('afterbegin',
-                `<div id="breakfast">
+                `<div class = "contentbody">
+                <div id="breakfast">
                 <div class="breakfast span">
                     <p class = "text">BREAKFAST</p>
                 </div>
@@ -245,15 +246,15 @@ if(count > 0 &&count<2){
                     <div class="col1">
                         <div id="mon1" class="mon1">
                             <span class="sp">
-                                <img class ="anhbreakfast" src="" alt="">
-                                <p id='info1' class="inforbreakfast"></p>
+                                <img class ="anhbreakfast anh" src="" alt="">
+                                <p id='info1' class="inforbreakfast infor"></p>
                             </span>
                         </div>
         
                         <div class="mon2" id="mon2">
                             <span class='sp'>
-                                <img class ="anhbreakfast" src="" alt="">
-                                <p id='info2' class="inforbreakfast"></p>
+                                <img class ="anhbreakfast anh" src="" alt="">
+                                <p id='info2' class="inforbreakfast infor"></p>
                             </span>
                         </div>
                     </div>
@@ -261,7 +262,7 @@ if(count > 0 &&count<2){
                         
                     </div>
                 </div>
-            </div>
+           
             <div id="lunch">
             <div class="lunch span">
                 <p class = "text">LUNCH</p>
@@ -270,15 +271,15 @@ if(count > 0 &&count<2){
                 <div class="col1">
                     <div id="mon1" class="mon1">
                         <span class="sp">
-                            <img class ="anhlunch" src="" alt="">
-                            <p id='info1' class="inforlunch"></p>
+                            <img class ="anhlunch anh" src="" alt="">
+                            <p id='info1' class="inforlunch infor"></p>
                         </span>
                     </div>
         
                     <div class="mon2" id="mon2">
                         <span class='sp'>
-                            <img class ="anhlunch" src="" alt="">
-                            <p id='info2' class="inforlunch"></p>
+                            <img class ="anhlunch anh" src="" alt="">
+                            <p id='info2' class="inforlunch infor"></p>
                         </span>
                     </div>
                 </div>
@@ -297,15 +298,15 @@ if(count > 0 &&count<2){
                             <div class="col1">
                                 <div id="mon1" class="mon1">
                                     <span class="sp">
-                                        <img class ="anhdinner" src="" alt="">
-                                        <p id='info1' class="infordinner"></p>
+                                        <img class ="anhdinner anh" src="" alt="">
+                                        <p id='info1' class="infordinner infor"></p>
                                     </span>
                                 </div>
         
                                 <div class="mon2" id="mon2">
                                     <span class='sp'>
-                                        <img class ="anhdinner" src="" alt="">
-                                        <p id='info2' class="infordinner"></p>
+                                        <img class ="anhdinner anh" src="" alt="">
+                                        <p id='info2' class="infordinner infor"></p>
                                     </span>
                                 </div>
                             </div>
@@ -315,7 +316,9 @@ if(count > 0 &&count<2){
                                 
                             </div>
                         </div>
-                    </div>`);
+                    </div>
+                    </div>
+                    `);
         
         
         

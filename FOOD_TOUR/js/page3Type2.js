@@ -385,7 +385,8 @@ first.addEventListener("click", () => {
 
         // first.addEventListener("click", () => {
         firstMenu.insertAdjacentHTML('afterbegin',
-            `<div id="breakfast">
+            `<div class = "contentbody">
+            <div id="breakfast">
         <div class="breakfast span">
             <p id="text">BREAKFAST</p>
         </div>
@@ -393,28 +394,28 @@ first.addEventListener("click", () => {
             <div class="col1">
                 <div id="mon1" class="mon1">
                     <span class="sp">
-                        <img class="anhbreakfast" src="" alt="">
-                        <p id='info1' class="inforbreakfast"></p>
+                        <img class="anhbreakfast anh" src="" alt="">
+                        <p id='info1' class="inforbreakfast infor"></p>
                     </span>
                 </div>
                 <div class="mon2" id="mon2">
                     <span class='sp'>
-                        <img class="anhbreakfast" src="" alt="">
-                        <p id='info2' class="inforbreakfast"></p>
+                        <img class="anhbreakfast anh" src="" alt="">
+                        <p id='info2' class="inforbreakfast infor"></p>
                     </span>
                 </div>
             </div>
             <div class="col2">
                 <div class="mon3" id="mon3">
                     <span class='sp'>
-                        <img class="anhbreakfast" src="" alt="">
-                        <p id='info3' class="inforbreakfast"></p>
+                        <img class="anhbreakfast anh" src="" alt="">
+                        <p id='info3' class="inforbreakfast infor"></p>
                     </span>
                 </div>
                 <div class="mon4" id="mon4">
                     <span class='sp'>
-                        <img class="anhbreakfast" src="" alt="">
-                        <p id='info4' class="inforbreakfast"></p>
+                        <img class="anhbreakfast anh" src="" alt="">
+                        <p id='info4' class="inforbreakfast infor"></p>
                     </span>
                 </div>
             </div>
@@ -428,22 +429,22 @@ first.addEventListener("click", () => {
             <div class="col1">
                 <div id="mon1" class="mon1">
                     <span class="sp">
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info1' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info1' class="inforlunch infor"></p>
                     </span>
                 </div>
     
                 <div class="mon2" id="mon2">
                     <span class='sp'>
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info2' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info2' class="inforlunch infor"></p>
                     </span>
                 </div>
     
                 <div class="mon3" id="mon3">
                     <span class='sp'>
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info3' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info3' class="inforlunch infor"></p>
                     </span>
                 </div>
             </div>
@@ -451,22 +452,22 @@ first.addEventListener("click", () => {
             <div class="col2">
                 <div class="mon4" id="mon4">
                     <span class='sp'>
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info3' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info3' class="inforlunch infor"></p>
                     </span>
                 </div>
     
                 <div class="mon5" id="mon5">
                     <span class='sp'>
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info5' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info5' class="inforlunch infor"></p>
                     </span>
                 </div>
     
                 <div class="mon6" id="mon6">
                     <span class='sp'>
-                        <img class="anhlunch" src="" alt="">
-                        <p id='info4' class="inforlunch"></p>
+                        <img class="anhlunch anh" src="" alt="">
+                        <p id='info4' class="inforlunch infor"></p>
                     </span>
                 </div>
             </div>
@@ -480,15 +481,15 @@ first.addEventListener("click", () => {
             <div class="col1">
                 <div id="mon1" class="mon1">
                     <span class="sp">
-                        <img class="anhsnack" src="" alt="">
-                        <p id='info1' class="inforsnack"></p>
+                        <img class="anhsnack anh" src="" alt="">
+                        <p id='info1' class="inforsnack infor"></p>
                     </span>
                 </div>
     
                 <div class="mon2" id="mon2">
                     <span class='sp'>
-                        <img class="anhsnack" src="" alt="">
-                        <p id='info2' class="inforsnack"></p>
+                        <img class="anhsnack anh" src="" alt="">
+                        <p id='info2' class="inforsnack infor"></p>
                     </span>
                 </div>
             </div>
@@ -504,22 +505,22 @@ first.addEventListener("click", () => {
             <div class="col1">
                 <div id="mon1" class="mon1">
                     <span class="sp">
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info1' class="infordinner"></p>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info1' class="infordinner infor"></p>
                     </span>
                 </div>
     
                 <div class="mon2" id="mon2">
                     <span class='sp'>
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info2' class="infordinner"></p>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info2' class="infordinner infor"></p>
                     </span>
                 </div>
     
                 <div class="mon3" id="mon3">
                     <span class='sp'>
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info3' class="infordinner"></p>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info3' class="infordinner infor"></p>
                     </span>
                 </div>
             </div>
@@ -527,26 +528,27 @@ first.addEventListener("click", () => {
             <div class="col2">
                 <div class="mon4" id="mon4">
                     <span class='sp'>
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info3' class="infordinner"></p>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info3' class="infordinner infor"></p>
                     </span>
                 </div>
     
                 <div class="mon5" id="mon5">
                     <span class='sp'>
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info5' class="infordinner"></p>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info5' class="infordinner infor"></p>
                     </span>
                 </div>
     
                 <div class="mon6" id="mon6">
                     <span class='sp'>
-                        <img class="anhdinner" src="" alt="">
-                        <p id='info4' class="infordinner"></p>
-                    </span>
+                        <img class="anhdinner anh" src="" alt="">
+                        <p id='info4' class="infordinner infor"></p>
+                    </span> 
                 </div>
             </div>
         </div>
+    </div>
     </div>`);
 
 
