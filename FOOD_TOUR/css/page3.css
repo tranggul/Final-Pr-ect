@@ -1,0 +1,72 @@
+#header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#banner {
+    height: 50%;
+    width: 100%;
+}
+
+#quote{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+}
+
+#menu{
+    /* background-image: url(.jpg); */
+}
+
+.t {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.t:active {
+    color: #B34C11;
+}
+
+.sp{
+    margin-top: 50px;
+}
+
+.anh{
+    border-radius: 50px;
+}
+
+.text{
+    color: black;
+    font-size: 40px;
+}
+
+.content {
+    display: block;
+}
+
+.span { 
+    text-align: center;
+    border: 0.5px solid red;
+}
+
+.col1 {
+    display: block;
+}
+.col2 {
+    display: block;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.anhbreakfast,.anhlunch,.anhsnack,.anhdinner , .anhsnack2, .in4{
+    display: inline-block;
+    width : 80px;
+    height:80px;
+}

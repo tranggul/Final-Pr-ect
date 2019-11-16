@@ -1,0 +1,95 @@
+#wrapper {
+    min-width: 480px;
+    max-width: 1200px;
+}
+body {
+    background-image: url("../images/pp.jpg");
+    background-size: cover;
+    width: 1290px;
+    height: 650px;
+   
+}
+
+.omg{
+    font-family: 'Zhi Mang Xing', cursive;
+    font-style: italic;
+    font-size: 180px;
+    margin-left: 27%;
+    color: #B34C11;
+   
+    margin-top: 10px;
+}
+
+.describ{
+    /* font-family: 'Zhi Mang Xing', cursive; */
+    width: 60%;
+    font-style: italic;
+    font-weight: bold;;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 18%;
+    color: #B34C11;
+  
+    margin-top: 10px;
+}
+
+.omgfoodtour {
+    margin-top: 50px;
+}
+
+#ip1, #ip2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.enter input {
+    margin-left: 25%;
+    border-radius: 20px;
+    display: block;
+    width: 500px;
+    height: 60px;
+    font-size: 100%;
+}
+#calcu, #book{
+    font-family: 'Playball', cursive; 
+    background-color: #B34C11; 
+    border-radius: 50px;
+    
+    display: block;
+}
+
+#calcu{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 38%;
+}
+
+#book{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-left: 29%;
+    width: 400px;
+}
+
+button:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+} 
+
+#ip1:hover, #ip2:hover {
+    border: 3px solid #FFA247;
+}
