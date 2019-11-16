@@ -9,9 +9,9 @@ const thuacan = [
                 menu: ["một quả táo ", "một quả trứng luộc", "nửa cốc sửa không đường"],
                 image: ['quatao.jpg', 'trungluoc.jpg',  'suatachkem.jpg'], calo: '300'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["bánh sandwich kẹp cá ngừ với bánh mì nguyên hạt", "2 chén rau(cà rốt, cần tây)", "một quả táo"],
@@ -22,7 +22,7 @@ const thuacan = [
                 image: ['comgaolut.jpg', 'trungluoc.jpg',  'saladraucu.jpg'], calo: '500'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["một hũ sữa chua không đường", "một trái chuối"],
@@ -33,7 +33,7 @@ const thuacan = [
                 image:[ 'suadaunanh.jpg',  'quacam.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["100gram thịt ức gà nướng", "3/4 chén đậu cove hấp", "salad cà rốt nghiền", "một quả lê"],
@@ -45,10 +45,10 @@ const thuacan = [
             },
         ]
     },
-
-
-
-
+ 
+ 
+ 
+ 
     {
         sang: [
             {
@@ -59,9 +59,9 @@ const thuacan = [
                 menu: ["một ly nước dừa", "sandwich kẹp thịt nạc", "nửa cốc sữa tươi"],
                 image: ['nuocdua.jpg',  'sandwich.jpg',  'suatachkem.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["1 bát cơm gạo lứt", "trứng cuộn", "2 bát rau cải luộc"],
@@ -72,7 +72,7 @@ const thuacan = [
                 image: ['sandwichga.jpg',  'saladraucu.jpg',  'quale.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["nước cam ép", "một trái chuối"],
@@ -83,7 +83,7 @@ const thuacan = [
                 image: ['duahau.jpg', 'trabuoi.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["Sườn lợn bí đỏ", "măng tây đút lò", "3 múi bưởi", "salad rau củ"],
@@ -95,9 +95,9 @@ const thuacan = [
             },
         ]
     },
-
-
-
+ 
+ 
+ 
     {
         sang: [
             {
@@ -108,9 +108,9 @@ const thuacan = [
                 menu: ["một ly nước chanh", "bánh bao", "salad rau củ"],
                 image:[ 'nuocchanh.png',  'banhbao.png',  'saladraucu.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["cơm gạo lứt", "cá  chưng tương", "salad rau mầm"],
@@ -121,7 +121,7 @@ const thuacan = [
                 image: ['thitnacapchao.jpg',  'saladraucu.jpg',  'trabuoi.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["sữa chua", "một trái chuối"],
@@ -132,7 +132,7 @@ const thuacan = [
                 image: ['quanho.jpg', 'trabuoi.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["bún bò", "súp lơ xanh luộc", "nước ép bưởi", "nửa quả cam"],
@@ -144,10 +144,10 @@ const thuacan = [
             },
         ]
     },
-
-
-
-
+ 
+ 
+ 
+ 
     {
         sang: [
             {
@@ -158,9 +158,9 @@ const thuacan = [
                 menu: ["1 quả trứng luộc", "2 miếng sandwich", "1 cốc sữa tươi không đường"],
                 image: ['trungluoc.jpg',  'sandwichnguyencam.jpg',  'suatachkem.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["1 chén cơm gạo lứt", "100gr thịt bò", "salad rau củ"],
@@ -171,7 +171,7 @@ const thuacan = [
                 image: ['thitnacluoc.jpg',  'rauchanvit.png',  'trungluoc.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["1 ly sữa đậu nành", "nửa quả mắc cọp"],
@@ -182,7 +182,7 @@ const thuacan = [
                 image: ['quadua.jpg', 'suatachkem.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["bún chả", "cà rốt luộc", "khoai lang luộc", "trà bưởi"],
@@ -194,10 +194,10 @@ const thuacan = [
             },
         ]
     },
-
-
-
-
+ 
+ 
+ 
+ 
     {
         sang: [
             {
@@ -208,9 +208,9 @@ const thuacan = [
                 menu: ["1 ly nước chanh", "bánh bao", "1 múi bưởi"],
                 image: ['nuocchanh.png', 'banhbao.png', 'muibuoi.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["phở bò k nước béo", "rau ngót luộc", "1 ly trà bưởi"],
@@ -221,7 +221,7 @@ const thuacan = [
                 image: ['comgaolut.jpg',  'thitthanluoc.jpg',  'quadua.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["sữa chua", "trà bưởi"],
@@ -232,7 +232,7 @@ const thuacan = [
                 image: ['duahau.jpg',  'traxanh.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["cháo bí đỏ", "măng tây đút lò", "300gram dưa hấu", "một ly nước lọc"],
@@ -244,7 +244,7 @@ const thuacan = [
             },
         ]
     },
-
+ 
     {
         sang: [
             {
@@ -255,9 +255,9 @@ const thuacan = [
                 menu: ["1 cái bánh giò", "1 múi bưởi", "1 ly trà bưởi"],
                 image: ['banhgio.jpg',  'muibuoi.jpg',  'trabuoi.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["cá nục kho dứa", "1 bát cơm gạo lứt", "200gram táo"],
@@ -268,7 +268,7 @@ const thuacan = [
                 image: ['suonsaochuangot.jpg',  'raumuongluoc.jpg',  'quadua.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["1 cây kem dứa", "trà chanh ít đường"],
@@ -279,7 +279,7 @@ const thuacan = [
                 image: ['suatachkem.jpg',  'quacam.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["của cải trắng luộc", "bún bò ít nước béo", "1 quả kiwi", "một ly trà bưởic"],
@@ -291,10 +291,10 @@ const thuacan = [
             },
         ]
     },
-
-
-
-
+ 
+ 
+ 
+ 
     {
         sang: [
             {
@@ -305,9 +305,9 @@ const thuacan = [
                 menu: ["1 ly nước chanh", "xôi lạc", "trà bưởi"],
                 image: ['nuocchanh.png', 'xoilac.jpg',  'trabuoi.jpg'], calo: '340'
             },
-
+ 
         ],
-
+ 
         trua: [
             {
                 menu: ["cơm gạo lứt", "canh rong biển", "300g dứa"],
@@ -318,7 +318,7 @@ const thuacan = [
                 image:[ 'soupganam.jpg', 'rauchanvit.jpg',  'quanho.jpg'], calo: '400'
             },
         ],
-
+ 
         phu: [
             {
                 menu: ["2 múi bưởi", "1/2 ly sữa tươi không đường"],
@@ -329,7 +329,7 @@ const thuacan = [
                 image: ['suachuakhongduong.jpg', 'traxanh.jpg'], calo: "100",
             }
         ],
-
+ 
         toi: [
             {
                 menu: ["thịt bê xào rau muống", "1 bát cơm gạo lứt", "300gram mắc cọp", "trà bưởi"],
@@ -341,159 +341,165 @@ const thuacan = [
             },
         ]
     }
-
-
+ 
+ 
 ]
-
-
+ 
+ 
 let day = document.getElementsByClassName("t");
-
+ 
 let first = document.getElementById("0");
 let count=0;
 let firstMenu =  document.getElementById("menu");
 first.addEventListener("click", ()=>{
     count=count+1;
-
-if(count > 0 &&count<2){
-       
+ 
+if(count > 0 && count < 2){
+   
         // first.addEventListener("click", () => {
             firstMenu.insertAdjacentHTML('afterbegin',
-                `<div id="breakfast">
-                <div class="breakfast span">
-                    <p id = "text">BREAKFAST</p>
+                `<div class="contentbody">
+                    <div id="breakfast">
+                        <div class="breakfast span">
+                            <p id = "text">BREAKFAST</p>
+                        </div>
+ 
+                        <div class="content">
+                            <div class="col1">
+ 
+                                <div id="mon1" class="mon1">
+                                    <span class="sp">
+                                        <img class ="anhbreakfast anh" src="" alt="">
+                                        <p id='info1' class="inforbreakfast infor"></p>
+                                    </span>
+                                </div>
+                               
+               
+                                <div class="mon2" id="mon2">
+                                    <span class='sp'>
+                                        <img class ="anhbreakfast anh" src="" alt="">
+                                        <p id='info2' class="inforbreakfast infor"></p>
+                                    </span>
+                                </div>
+                        </div>
+           
+                        <div class="col2">
+ 
+                            <div class="mon3" id="mon3">
+                                <span class='sp'>
+                                    <img  class ="anhbreakfast anh" src="" alt="">
+                                    <p id='info3' class="inforbreakfast infor"></p>
+                                </span>
+                            </div>
+ 
+                        </div>
+                    </div>
+ 
+ 
+            <div id="lunch">
+                <div class="lunch span">
+                    <p id = "text">LUNCH</p>
                 </div>
                 <div class="content">
                     <div class="col1">
                         <div id="mon1" class="mon1">
                             <span class="sp">
-                                <img class ="anhbreakfast" src="" alt="">
-                                <p id='info1' class="inforbreakfast"></p>
+                                <img class ="anhlunch anh" src="" alt="">
+                                <p id='info1' class="inforlunch infor"></p>
                             </span>
                         </div>
-        
+           
                         <div class="mon2" id="mon2">
                             <span class='sp'>
-                                <img class ="anhbreakfast" src="" alt="">
-                                <p id='info2' class="inforbreakfast"></p>
+                                <img class ="anhlunch anh" src="" alt="">
+                                <p id='info2' class="inforlunch infor"></p>
                             </span>
                         </div>
                     </div>
-        
+           
                     <div class="col2">
                         <div class="mon3" id="mon3">
                             <span class='sp'>
-                                <img  class ="anhbreakfast" src="" alt="">
-                                <p id='info3' class="inforbreakfast"></p>
+                                <img  class ="anhlunch anh" src="" alt="">
+                                <p id='info3' class="inforlunch infor"></p>
                             </span>
                         </div>
-        
-                        
+           
                     </div>
                 </div>
             </div>
-            <div id="lunch">
-            <div class="lunch span">
-                <p id = "text">LUNCH</p>
+ 
+            <div id="snack">
+                <div class="snack span">
+                    <p id = "text">SNACK</p>
+                </div>
+                <div class="content">
+                    <div class="col1">
+                        <div id="mon1" class="mon1">
+                            <span class="sp">
+                                <img class ="anhsnack anh" src="" alt="">
+                                <p id='info1' class="inforsnack infor"></p>
+                            </span>
+                        </div>
+ 
+                        <div class="mon2" id="mon2">
+                            <span class='sp'>
+                                <img class ="anhsnack anh" src="" alt="">
+                                <p id='info2' class="inforsnack infor"></p>
+                            </span>
+                        </div>
+                    </div>
+ 
+                   
+                </div>
+            </div>
+        <div id="dinner">
+            <div class="dinner span">
+                <p id = "text">DINNER</p>
             </div>
             <div class="content">
                 <div class="col1">
                     <div id="mon1" class="mon1">
                         <span class="sp">
-                            <img class ="anhlunch" src="" alt="">
-                            <p id='info1' class="inforlunch"></p>
+                            <img class ="anhdinner anh" src="" alt="">
+                            <p id='info1' class="infordinner infor"></p>
                         </span>
                     </div>
-        
+ 
                     <div class="mon2" id="mon2">
                         <span class='sp'>
-                            <img class ="anhlunch" src="" alt="">
-                            <p id='info2' class="inforlunch"></p>
+                            <img class ="anhdinner anh" src="" alt="">
+                            <p id='info2' class="infordinner infor"></p>
                         </span>
                     </div>
                 </div>
-        
+ 
                 <div class="col2">
                     <div class="mon3" id="mon3">
                         <span class='sp'>
-                            <img  class ="anhlunch" src="" alt="">
-                            <p id='info3' class="inforlunch"></p>
+                            <img  class ="anhdinner anh" src="" alt="">
+                            <p id='info3' class="infordinner infor"></p>
                         </span>
                     </div>
-        
-                   
+ 
+                    <div class="mon4" id="mon4">
+                        <span class='sp'>
+                            <img  class ="anhdinner anh" src="" alt="">
+                            <p id='info4' class="infordinner infor"></p>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="snack">
-                        <div class="snack span">
-                            <p id = "text">SNACK</p>
-                        </div>
-                        <div class="content">
-                            <div class="col1">
-                                <div id="mon1" class="mon1">
-                                    <span class="sp">
-                                        <img class ="anhsnack" src="" alt="">
-                                        <p id='info1' class="inforsnack"></p>
-                                    </span>
-                                </div>
-        
-                                <div class="mon2" id="mon2">
-                                    <span class='sp'>
-                                        <img class ="anhsnack" src="" alt="">
-                                        <p id='info2' class="inforsnack"></p>
-                                    </span>
-                                </div>
-                            </div>
-        
-                            
-                        </div>
-                    </div>
-                    <div id="dinner">
-                        <div class="dinner span">
-                            <p id = "text">DINNER</p>
-                        </div>
-                        <div class="content">
-                            <div class="col1">
-                                <div id="mon1" class="mon1">
-                                    <span class="sp">
-                                        <img class ="anhdinner" src="" alt="">
-                                        <p id='info1' class="infordinner"></p>
-                                    </span>
-                                </div>
-        
-                                <div class="mon2" id="mon2">
-                                    <span class='sp'>
-                                        <img class ="anhdinner" src="" alt="">
-                                        <p id='info2' class="infordinner"></p>
-                                    </span>
-                                </div>
-                            </div>
-        
-                            <div class="col2">
-                                <div class="mon3" id="mon3">
-                                    <span class='sp'>
-                                        <img  class ="anhdinner" src="" alt="">
-                                        <p id='info3' class="infordinner"></p>
-                                    </span>
-                                </div>
-        
-                                <div class="mon4" id="mon4">
-                                    <span class='sp'>
-                                        <img  class ="anhdinner" src="" alt="">
-                                        <p id='info4' class="infordinner"></p>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>`);
-        
-        
-        
-    
+    </div>`
+        );
+       
+       
+       
+   
 }
 })
-      
-
+ 
 let anhbreakfast= document.getElementsByClassName("anhbreakfast");;  
 let anhlunch= document.getElementsByClassName("anhlunch");
 let anhsnack = document.getElementsByClassName("anhsnack");
@@ -503,8 +509,8 @@ let inforlunch= document.getElementsByClassName("inforlunch");
 let inforsnack=document.getElementsByClassName("inforsnack");
 let infordinner= document.getElementsByClassName("infordinner");
 let string;
-
-
+ 
+ 
 for(let i = 0; i < thuacan.length; i++){
     day_clicked = document.getElementById(`${i}`);
     day_clicked.addEventListener("click",() =>{
@@ -516,10 +522,9 @@ for(let i = 0; i < thuacan.length; i++){
     //    inforlunch = document.getElementsByClassName("inforlunch");
     //    inforsnack = document.getElementsByClassName("inforsnack");
     //    infordinner = document.getElementsByClassName("infordinner");
-       
-       for(let j = 0 ; j< thuacan.length;j++){
-           let firstday = thuacan[i];
-           let menubreakfast = firstday.sang;
+        for(let j = 0 ; j< thuacan.length;j++){
+            let firstday = thuacan[i];
+            let menubreakfast = firstday.sang;
             let menulunch = firstday.trua;
             let menusnack = firstday.phu;
             let menudinner = firstday.toi;
@@ -531,27 +536,27 @@ for(let i = 0; i < thuacan.length; i++){
             let getArrayMenuSnack = randmenusnack.menu;
             var randmenudinner = menudinner[Math.floor(Math.random() * menudinner.length)];
             let getArrayMenuDinner = randmenudinner.menu;
-           for(let d = 0; d< getArrayMenuBreakfast.length;d++){
+            for(let d = 0; d< getArrayMenuBreakfast.length;d++){
             anhbreakfast[d].src = "../images/"+randmenubreakfast.image[d];
             inforbreakfast[d].innerHTML = getArrayMenuBreakfast[d];
-           }
-           for(let d = 0; d< getArrayMenuLunch.length;d++){
+            }
+            for(let d = 0; d< getArrayMenuLunch.length;d++){
             anhlunch[d].src = "../images/"+randmenulunch.image[d];
             inforlunch[d].innerHTML = getArrayMenuLunch[d];
-           }
-           for(let d = 0; d< getArrayMenuSnack.length;d++){
+            }
+            for(let d = 0; d< getArrayMenuSnack.length;d++){
             anhsnack[d].src = "../images/"+randmenusnack.image[d];
             inforsnack[d].innerHTML = getArrayMenuSnack[d];
-           }
-           for(let d = 0; d< getArrayMenuDinner.length;d++){
+            }
+            for(let d = 0; d< getArrayMenuDinner.length;d++){
             anhdinner[d].src = "../images/"+randmenudinner.image[d];
             infordinner[d].innerHTML = getArrayMenuDinner[d];
-           }
-
-       }
-
-
-    
+            }
+ 
+        }
+ 
+ 
+   
     })
-        
+       
 }

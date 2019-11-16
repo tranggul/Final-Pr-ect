@@ -130,7 +130,7 @@ const thieucan = [
         ],
         phu: [
             {
-                menu: ["1 cốc trái cây lạnh", "1/2 ly sữa tăng cân Mass Effect", "camep.jpg"], 
+                menu: ["1 cốc trái cây lạnh", "1/2 ly sữa tăng cân Mass Effect", "cam ep"], 
                 image: ['2coctraicaylanh.jpg', 'suatangcanMassEffect.jpg',"camep.jpg"], calo : '675',
             },
         ],
@@ -240,7 +240,7 @@ const thieucan = [
             {
                 menu: ["Sữa Whey lắc cùng với sữa tươi", "Trái cây", "bánh quy"], 
                 image: ['suawheyprotein.jpg', 'traicay.jpg', "banhqui.jpg"], calo : '658',
-            }
+            },
         ],
 
         toi: [
@@ -292,8 +292,8 @@ const thieucan = [
         ],
         phu: [
             {
-                menu: ["Sanwich 3 tầng", "Súp đậu đen"], 
-                image: ['sandwich3tang.jpg', 'supdauden.jpg'], calo : '625',
+                menu: ["Sanwich 3 tầng", "Súp đậu đen", "1 quả táo"], 
+                image: ['sandwich3tang.jpg', 'supdauden.jpg', "tao.jpg"], calo : '625',
             },
         ],
 
@@ -386,7 +386,7 @@ if(count > 0 &&count<2){
             firstMenu.insertAdjacentHTML('afterbegin',
                 `<div id="breakfast">
                 <div class="breakfast span">
-                    <p class = "text">BREAKFAST</p>
+                    <p id = "text">BREAKFAST</p>
                 </div>
                 <div class="content">
                     <div class="col1">
@@ -419,7 +419,7 @@ if(count > 0 &&count<2){
             </div>
             <div id="lunch">
             <div class="lunch span">
-                <p class = "text">LUNCH</p>
+                <p id = "text">LUNCH</p>
             </div>
             <div class="content">
                 <div class="col1">
@@ -452,7 +452,7 @@ if(count > 0 &&count<2){
         </div>
         <div id="snack">
                         <div class="snack span">
-                            <p class = "text">SNACK</p>
+                            <p id = "text">SNACK</p>
                         </div>
                         <div class="content">
                             <div class="col1">
@@ -476,7 +476,7 @@ if(count > 0 &&count<2){
                     </div>
                     <div id="dinner">
                         <div class="dinner span">
-                            <p class = "text">DINNER</p>
+                            <p id = "text">DINNER</p>
                         </div>
                         <div class="content">
                             <div class="col1">
@@ -510,11 +510,12 @@ if(count > 0 &&count<2){
                                     </span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <div id="snack2">
-                        <div class="snack span">
-                            <p class = "text">SNACK</p>
+                        <div class="snack2 span">
+                            <p id = "text">SNACK</p>
                         </div>
                         <div class="content">
                             <div class="col1">
@@ -535,7 +536,8 @@ if(count > 0 &&count<2){
         
                             
                         </div>
-                    </div>`);
+                    </div>
+                    `);
         
         
         
@@ -544,23 +546,30 @@ if(count > 0 &&count<2){
 })
       
 
-let anhbreakfast= document.getElementsByClassName("anhbreakfast");;  
-let anhlunch= document.getElementsByClassName("anhlunch");
-let anhsnack = document.getElementsByClassName("anhsnack");
-let anhdinner=document.getElementsByClassName("anhdinner");
-let anhsnack2 = document.getElementsByClassName("anhsnack2");
+
+let anhbreakfast;
+let anhlunch;
+let anhsnack;
+let anhdinner;
+let anhsnack2;
+
+for(let i = 0; i < thieucan.length; i++){
+    day_clicked = document.getElementById(`${i}`);
+    day_clicked.addEventListener("click",() =>{
+ anhbreakfast= document.getElementsByClassName("anhbreakfast");;  
+ anhlunch= document.getElementsByClassName("anhlunch");
+ anhsnack = document.getElementsByClassName("anhsnack");
+ anhdinner=document.getElementsByClassName("anhdinner");
+ anhsnack2 = document.getElementsByClassName("anhsnack2");
+console.log(anhbreakfast);
+console.log(anhsnack);
+console.log(anhdinner);
 let inforbreakfast =document.getElementsByClassName("inforbreakfast");
 let inforlunch= document.getElementsByClassName("inforlunch");
 let inforsnack=document.getElementsByClassName("inforsnack");
 let infordinner= document.getElementsByClassName("infordinner");
 let inforsnack2=document.getElementsByClassName("inforsnack2");
 let string;
-console.log(anhdinner);
-
-
-for(let i = 0; i < thieucan.length; i++){
-    day_clicked = document.getElementById(`${i}`);
-    day_clicked.addEventListener("click",() =>{
     //    anhbreakfast = document.getElementsByClassName("anhbreakfast");
     //    anhlunch = document.getElementsByClassName("anhlunch");
     //    anhsnack = document.getElementsByClassName("anhsnack");
@@ -582,10 +591,12 @@ for(let i = 0; i < thieucan.length; i++){
             var randmenulunch = menulunch[Math.floor(Math.random() * menulunch.length)];
             let getArrayMenuLunch = randmenulunch.menu;
             var randmenusnack = menusnack[Math.floor(Math.random() * menusnack.length)];
+            
             let getArrayMenuSnack = randmenusnack.menu;
             var randmenudinner = menudinner[Math.floor(Math.random() * menudinner.length)];
             let getArrayMenuDinner = randmenudinner.menu;
             var randmenusnack2 = menusnack2[Math.floor(Math.random() * menusnack2.length)];
+            
             let getArrayMenuSnack2 = randmenusnack2.menu;
            for(let d = 0; d< getArrayMenuBreakfast.length;d++){
             anhbreakfast[d].src = "../images_Type1/"+randmenubreakfast.image[d];
@@ -595,18 +606,21 @@ for(let i = 0; i < thieucan.length; i++){
             anhlunch[d].src = "../images_Type1/"+randmenulunch.image[d];
             inforlunch[d].innerHTML = getArrayMenuLunch[d];
            }
-           for(let d = 0; d< getArrayMenuSnack.length;d++){
+          console.log(getArrayMenuSnack.length);
+          for(let d = 0; d<= menusnack.length;d++){
             anhsnack[d].src = "../images_Type1/"+randmenusnack.image[d];
             inforsnack[d].innerHTML = getArrayMenuSnack[d];
-           }
+          }
+           
+           
            for(let d = 0; d< getArrayMenuDinner.length;d++){
             anhdinner[d].src = "../images_Type1/"+randmenudinner.image[d];
             infordinner[d].innerHTML = getArrayMenuDinner[d];
            }
-           for(let d = 0; d< getArrayMenuSnack2.length;d++){
+           for(let d = 0; d<randmenusnack2.menu.length;d++){
             anhsnack2[d].src = "../images_Type1/"+randmenusnack2.image[d];
             inforsnack2[d].innerHTML = getArrayMenuSnack2[d];
-           }
+          }
 
        }
 

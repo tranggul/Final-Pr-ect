@@ -1,241 +1,80 @@
-body {
-    border: 0.5px solid #b1b1bb;
-}
-.footer{
-    border: 0.5px solid #b1b1bb;
-    height: 20px;
-    width:100%;
-}
-.header {
-    background-color: #cecece;
-    border: 0.5px solid #b1b1bb;
-}
-.thisweek {
-    margin-left: 10px;
-    font-size: 35px;
-    color: #FF8C00;
-}
-.content2, .col2content {
-    margin-top: 20px;
+.content {
+    font-family: 'Bebas Neue', cursive;
 }
 
-.time {
-    top: 22px;
-    margin-left: 15px;
-    font-size: 18px;
-}
-.col1, .col2 {
-    display: inline-block;
-}
-
-/* css cho lich  */
-.monthx {
-    list-style: none;
-}
-.month {
-    background: #FF8C00;
-    text-align: center;
-}
-.month ul {
-    margin: 0;
-    padding: 0;
+.bg-image {
+    /* The image used */
+    background-image: url("page2bg.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 120%; 
+    
+    /* Center and scale the image nicely */
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
 
-.month ul li {
+.quotesau {
+    font-size: 160%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(61, 53, 53, 0.4); /* Black w/opacity/see-through */
     color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
-}
-
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
     text-align: center;
 }
 
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-}
-
-.days li {
-    list-style-type: none;
+.ex {
     display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
+    margin-left: 30px;
 }
 
-.days li .active {
-    padding: 5px;
-    background: #1abc9c;
-    color: white !important
-}
-
-.calendar{
-    margin-top: 27px;
-    margin-right: 20px;
-}
-
-/* het css calendar  */
-.content{
-    display:flex;
-    justify-content: space-around;
-}
-.content2{
-    margin-right: 20px;
-}
-.col1 {
-    display: inline-block;
-    margin-top: 20px;
-    border-right: 0.5px solid #b1b1bb;
-    width: 50%;
-    height: 1000px;
-}
-
-.plan{
-    font-size: 17px;
-}
-.col2 {
-    display: inline-block;
-    height:10px;
-    width: 50%;
-}
-.col1content, .col2content{
-    margin-left: 10px;
-}
-.week {
-    font-size: 30px;
-    color: #FF8C00;
-}
-.day{
-    color: yellow;
-    font-size: 42px;
-}
-.tuesday {
-    font-weight: bold;
-}
-.tuesday, .nov {
-    display: block;
-}
-.tuesdaynov, .day{
-    display: inline-block;
-}
-.tuesdaynov{
-    margin-left: 7px;
-}
-.mealsspan {
-    height: 35px;
-    margin-top: 20px;
-    font-size: 18px;
-    background-color: #cecece;
-    border: 0.5px solid #b1b1bb;
-}
-.fas { 
-    margin-left: 10px;
-}
-.all {
-    margin-bottom: 3px;
-}
-.meal {
-    font-weight: bold;
-}
-.selection {
-    margin-top: 20px;
-    display: flex;
-    /* background-color: #1abc9c; */
-    width: 100%;
-    height: 250px;
-    justify-content: flex-start;
-}
-.khoiduoi{
+.bottom {
+    position: absolute;
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    /* background-color: #eb6913; */
-}
-.khoitren{
-    /* background-color: #1aeb13; */
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-.selection img {
-    opacity: 70%;
+    top: 50%;
 }
 
-.breakfast{
-    display: block;
-    width: 80%;
-    height: 100%;
-    background-image: url("../images/breakfast.jpg");
-    background-size: contain;
-    border-radius: 100%;
-}
-
-.lunch{
-    display: block;
-    width: 80%;
-    height: 100%;
-    background-image: url("../images/lunch.jpg");
-    background-size: contain;
-    border-radius: 100%;
-}
-.snack{
-    background-image: url("../images/banhtra.jpg");
-    display: block;
-    width: 80%;
-    height: 100%;
-    background-size: contain;
-    border-radius: 100%;
-}
-.dinner{
-    display: block;
-    width: 80%;
-    height: 100%;
-    background-image: url("../images/dinner.jpg");
-    background-size: contain;
-    border-radius: 100%;
-}
-.b_txt{
-    margin-top: 20px;
-    color: #FF8C00;
-    font-weight: bold;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    font-size: 20px;
-    justify-content: space-around;
-    align-items: center;
+#planMeal {
+    font-size: 160%;
+    width: 10%;
+    height: 10%;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 110%;
+    right: 47%;
+    color: white;
+    border-radius: 25px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #f1f1f1;
     cursor: pointer;
 }
-.txt_meal{
-    background-color: #cecece;
-    border: 0.5px solid #777;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    border-radius: 10%;
+
+#get-plan:hover, .banner:hover {
+    background-color: white;
+    color: black;
 }
 
+.banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 140%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
