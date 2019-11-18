@@ -1,17 +1,21 @@
 #yourbmi {
     margin-left: 100%;
 }
-#wrapper {
-    min-width: 480px;
-    max-width: 1200px;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
+#wrapper {
+    width: 100%;
+}
+
 body {
     background-image: url("../images/minh.jpg");
     background-size: cover;
     background-repeat: none;
-    width: 1289px;
-    height: 650px;
-   
+    background-attachment: fixed;
 }
 
 #result {
@@ -33,7 +37,6 @@ body {
     font-size: 180px;
     margin-left: 43%;
     color: #770000;
-   
     margin-top: -5%;
 }
 
@@ -44,7 +47,6 @@ body {
     font-size: 30px;
     margin-left: 34%;
     color: #770000;
-  
     margin-top: 10px;
 }
 
@@ -111,37 +113,32 @@ button:hover {
 #ip1:hover, #ip2:hover {
     border: 2px solid #90E6F5;
 }
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+
+
+/* HEADER  */
+
 
 .header{
-    width: 100%;
+    width: 100vw;
     height: 80px;
     display: block;
     background-color:white;
-    /* position: absolute; */
 }
 
 .header1{
     background-color: #8B8970;
+    width: 100vw;
 }
 
 .fa {
+    display: inline-block;
     padding: 5px;
     font-size: 20px;
     width: 0px;
-
     text-align: center;
-
     text-decoration: none;
     margin: 2px -56px;
     height: 30px;
-
-
 } 
 
 .fa-facebook , .fa-twitter ,.fa-instagram {
@@ -204,31 +201,27 @@ button:hover {
     font-size: 16px;
 }
 #header11 {
-    width: 119%;
+    width: 100%;
 }
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+
+/* HET HEADER  */
 
 /* FOOTER */
 .footer{
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100vw;
     display: block;
     padding: 20px 0;
     box-sizing: border-box;
     background-color:  #8B8970;
-    height: 32%;
+    height: fit-content;
 }
 
 .inner_footer{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 1100px;
+    width: 100%;
     height: 100%;
     font-family: "Montserrat";
     font-size: 15px;
