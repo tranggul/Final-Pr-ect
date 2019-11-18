@@ -240,6 +240,12 @@ button:hover {
     margin-top: 5px;
     color: white;
 }
+#comment{
+    margin-left: 350px;
+} 
+#boxcomment{
+    margin-left: 300px;;
+}
 
 /* .inner_footer .footer_third > span {
     margin-top: 10px;

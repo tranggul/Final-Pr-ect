@@ -29,3 +29,53 @@ function calculateBMI() {
 }
 calculate.addEventListener("click", calculateBMI);
 
+
+
+// let API = "https://sheetdb.io/api/v1/t0pc7n6jn39d5";
+//   function clickComment(){
+//     let boxcomment;
+// let insert = document.getElementById("insert");
+// let comment = document.getElementById("comment");
+// let send;
+//   comment.remove();
+ 
+//   insert.insertAdjacentHTML('afterbegin', `
+//   <div id = 'boxcomment'>
+//   <p>Give us your feedback</p>
+//   <input id = "inputcomment" type="text">
+//   <button id ="send">send</button></div>
+//   `)
+//   boxcomment =document.getElementById('boxcomment');
+//    send = document.getElementById("send");
+   
+
+//    console.log(send);
+//   send.addEventListener('click',async ()=>{
+//   let inputValue = document.getElementById("inputcomment");
+//   console.log(inputValue.value);
+//   const body = {
+//     data:[
+//         {
+           
+//             feedback: inputValue.value
+//         }
+//     ]
+// }
+// const options = {
+//     method: 'POST',
+//     headers: {'Content-Type': 'application/json'},
+//     body:JSON.stringify(body)
+// }
+
+// const connection = await fetch(API, options);
+// const data = await connection.json();
+// console.log(data);
+//   boxcomment.remove();
+//   insert.insertAdjacentHTML('afterbegin', `<i id = "comment" class='far fa-comment-dots' onclick = "clickComment()" style='font-size:36px; color: #770000'></i>`)
+ 
+// })
+//   }
+let comment = document.getElementById('comment');
+comment.addEventListener('click',()=>{
+  document.location.href = '../html/enterFeedback.html';
+})

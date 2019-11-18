@@ -1,0 +1,10 @@
+body{
+    background-image: url("../images/fb.jpeg");
+    background-position: fixed;
+}
+#displayfeedback{
+    margin-left: 40%;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}

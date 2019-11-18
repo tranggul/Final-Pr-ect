@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -26,7 +27,9 @@
                     <div class="header">
                         <div class="inner_header">
                             <div class="logo_container">
-                                <h1>Food<span>tour</span></h1>
+                                <h1>Food<span id = 'insertIcon'>tour
+                                        <i id = "comment" class='far fa-comment-dots' onclick="clickComment()" style='font-size:36px; color: #770000'></i>
+                                </span></h1>
                             </div>
                             <ul class="navigation">
                                 <a href="">
@@ -35,8 +38,8 @@
                                 <a href="">
                                     <li>Menus</li>
                                 </a>
-                                <a href="">
-                                    <li>Order online</li>
+                                <a href="../html/feedback.html">
+                                    <li id = 'feedback'>Feedback</li>
                                 </a>
                                 <a href="">
                                     <li>Catering</li>
@@ -56,7 +59,11 @@
     <div id="wrapper">
         <div id="container">
             <div class="omgfoodtour">
-                <div class="omg">OMG !!!</div>
+                
+                    
+                    <!-- <div  id = "boxcomment"></div> -->
+                    <div class="omg">OMG !!!</div>
+            
                 <div class="describ">Enter your height and your weight to help you build a suitable eating plans in 7 days to get better health.</div>
             </div>
             <div class="enter">
