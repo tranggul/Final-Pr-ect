@@ -1,21 +1,17 @@
 #yourbmi {
     margin-left: 100%;
 }
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
 #wrapper {
-    width: 100%;
+    min-width: 480px;
+    max-width: 1200px;
 }
-
 body {
     background-image: url("../images/minh.jpg");
     background-size: cover;
     background-repeat: none;
-    background-attachment: fixed;
+    width: 1289px;
+    height: 650px;
+   
 }
 
 #result {
@@ -35,10 +31,9 @@ body {
 .omg{
     font-family: 'Dancing Script';
     font-size: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    margin-left: 43%;
     color: #770000;
+   
     margin-top: -5%;
 }
 
@@ -47,9 +42,9 @@ body {
     width: 60%;
     text-align: center;
     font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 34%;
     color: #770000;
+  
     margin-top: 10px;
 }
 
@@ -63,8 +58,7 @@ body {
 }
 
 .enter input {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 41%;
     border-radius: 20px;
     display: block;
     width: 500px;
@@ -85,15 +79,13 @@ body {
     color: white;
     font-size: 50px;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 51%;
 }
 
 #book{
     font-size: 62px;
     margin-top: 19px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 49%;
     width: 312px;
 }
 
@@ -119,48 +111,57 @@ button:hover {
 #ip1:hover, #ip2:hover {
     border: 2px solid #90E6F5;
 }
-
-
-/* HEADER  */
-
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 
 .header{
-    height: 50px;
-    display: block;
-    background-color: #8B8970;
-}
-.header-2{
+    width: 100%;
     height: 80px;
     display: block;
-    background-color: white;
+    background-color:white;
+    /* position: absolute; */
 }
 
-.group-icons{
-    background: #8B8970;
-    height: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.header1{
+    background-color: #8B8970;
 }
 
-.icon-groups{
-    margin-right: 5px;
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 0px;
+
+    text-align: center;
+
+    text-decoration: none;
+    margin: 2px -56px;
+    height: 30px;
+
+
+} 
+
+.fa-facebook , .fa-twitter ,.fa-instagram {
     color: white;
-}
+    margin-left: 5%;
 
-.inner-header{
+
+} 
+.inner_header{
     width: 90%;
     height: 100%;
     display: block;
     margin: 0 auto;
-    display: flex;
-    justify-content: end;
     /* background-color: red; */
 }
-.selection {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
 }
 
 .logo_container  h1{
@@ -170,32 +171,15 @@ button:hover {
     vertical-align: middle;
     font-family: 'Dancing Script';
     font-size: 50px;
-    font-weight: 200px
+    font-weight: 200px;
 }
-.menu-selection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}   
 
-.menu-selection a{
-    margin-right: 10px;
-    font-weight: bold;
-    font-family: 'Montserrat';
-    color: #770000;
-    vertical-align: middle;
-}
 .logo_container  h1 span{
     font-weight: bold;
     
 }
-.menu-navigation{
-    background: white;
-}
 
 .navigation{
-    display: flex;
     float: right;
     height: 100%;
 }
@@ -220,26 +204,33 @@ button:hover {
     font-size: 16px;
 }
 #header11 {
-    width: 100%;
+    width: 119%;
 }
-
-/* HET HEADER  */
-
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#search{
+    margin-left: 30px;
+}
 /* FOOTER */
 .footer{
-    margin-top: 20px;
+    margin-top: 40px;
+    width: 100vw;
     display: block;
     padding: 20px 0;
     box-sizing: border-box;
     background-color:  #8B8970;
-    height: fit-content;
+    height: 32%;
 }
 
 .inner_footer{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 100%;
+    width: 1100px;
     height: 100%;
     font-family: "Montserrat";
     font-size: 15px;
@@ -251,12 +242,13 @@ button:hover {
     margin-top: 5px;
     color: white;
 }
-#comment{
+/* #comment{
     margin-left: 350px;
 } 
 #boxcomment{
     margin-left: 300px;;
-}
+} */
+
 
 /* .inner_footer .footer_third > span {
     margin-top: 10px;
@@ -269,6 +261,7 @@ button:hover {
     margin-top: 0;
     margin-bottom: auto;
 }
+
 .inner_footer .footer_third :last-child{
     margin-right: 0;
 }
@@ -279,6 +272,7 @@ button:hover {
     display: block;
     width: 100%;
     margin-bottom: 20px;
+
 }
 .inner_footer .footer_third a{
     font-family: "Montserrat";

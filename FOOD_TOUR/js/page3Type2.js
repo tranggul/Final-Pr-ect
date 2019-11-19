@@ -55,7 +55,7 @@ const normal = [
     }, {
         sang: [
             {
-                menu: ["4 lat bánh mì phết bơ đậu phộng", "1 quả cam", "1 cốc sữa không béo"],
+                menu: ["4 lát bánh mì phết bơ đậu phộng", "1 quả cam", "1 cốc sữa không béo"],
                 image: ['bánh mì bơ.jpg', 'quả cam.jpg', 'sữa không béo.jpg'],
                 calo: '500'
             },
@@ -374,24 +374,16 @@ const normal = [
 ]
 
 let day = document.getElementsByClassName("t");
-
-let first = document.getElementById("0");
-let count = 0;
 let firstMenu = document.getElementById("menu");
-first.addEventListener("click", () => {
-    count = count + 1;
 
-    if (count > 0 && count < 2) {
-
-        // first.addEventListener("click", () => {
         firstMenu.insertAdjacentHTML('afterbegin',
             `<div class = "contentbody">
-            <div id="breakfast">
+            <div id="breakfast">zz
         <div class="breakfast span">
-            <p id="text">BREAKFAST</p>
+            <p class="text">BREAKFAST</p>
         </div>
         <div class="content">
-            <div class="col1">
+            
                 <div id="mon1" class="mon1">
                     <span class="sp">
                         <img class="anhbreakfast anh" src="" alt="">
@@ -404,8 +396,7 @@ first.addEventListener("click", () => {
                         <p id='info2' class="inforbreakfast infor"></p>
                     </span>
                 </div>
-            </div>
-            <div class="col2">
+           
                 <div class="mon3" id="mon3">
                     <span class='sp'>
                         <img class="anhbreakfast anh" src="" alt="">
@@ -418,15 +409,15 @@ first.addEventListener("click", () => {
                         <p id='info4' class="inforbreakfast infor"></p>
                     </span>
                 </div>
-            </div>
+           
         </div>
     </div>
     <div id="lunch">
         <div class="lunch span">
-            <p id="text">LUNCH</p>
+            <p class="text">LUNCH</p>
         </div>
         <div class="content">
-            <div class="col1">
+            
                 <div id="mon1" class="mon1">
                     <span class="sp">
                         <img class="anhlunch anh" src="" alt="">
@@ -447,9 +438,8 @@ first.addEventListener("click", () => {
                         <p id='info3' class="inforlunch infor"></p>
                     </span>
                 </div>
-            </div>
+            
     
-            <div class="col2">
                 <div class="mon4" id="mon4">
                     <span class='sp'>
                         <img class="anhlunch anh" src="" alt="">
@@ -470,15 +460,15 @@ first.addEventListener("click", () => {
                         <p id='info4' class="inforlunch infor"></p>
                     </span>
                 </div>
-            </div>
+          
         </div>
     </div>
     <div id="snack">
         <div class="snack span">
-            <p id="text">SNACK</p>
+            <p class="text">SNACK</p>
         </div>
         <div class="content">
-            <div class="col1">
+        
                 <div id="mon1" class="mon1">
                     <span class="sp">
                         <img class="anhsnack anh" src="" alt="">
@@ -492,14 +482,14 @@ first.addEventListener("click", () => {
                         <p id='info2' class="inforsnack infor"></p>
                     </span>
                 </div>
-            </div>
+         
     
     
         </div>
     </div>
     <div id="dinner">
         <div class="dinner span">
-            <p id="text">DINNER</p>
+            <p class="text">DINNER</p>
         </div>
         <div class="content">
             <div class="col1">
@@ -525,7 +515,7 @@ first.addEventListener("click", () => {
                 </div>
             </div>
     
-            <div class="col2">
+            
                 <div class="mon4" id="mon4">
                     <span class='sp'>
                         <img class="anhdinner anh" src="" alt="">
@@ -546,20 +536,66 @@ first.addEventListener("click", () => {
                         <p id='info4' class="infordinner infor"></p>
                     </span> 
                 </div>
-            </div>
         </div>
     </div>
     </div>`);
 
-
-
-
-    }
-})
 let anhbreakfast;
 let anhlunch;
 let anhsnack;
 let anhdinner;
+
+
+
+
+    day_clicked = document.getElementById(`0`);
+
+        anhbreakfast = document.getElementsByClassName("anhbreakfast");;
+        anhlunch = document.getElementsByClassName("anhlunch");
+        anhsnack = document.getElementsByClassName("anhsnack");
+        anhdinner = document.getElementsByClassName("anhdinner");
+        console.log(anhbreakfast);
+        console.log(anhsnack);
+        console.log(anhdinner);
+        let inforbreakfast = document.getElementsByClassName("inforbreakfast");
+        let inforlunch = document.getElementsByClassName("inforlunch");
+        let inforsnack = document.getElementsByClassName("inforsnack");
+        let infordinner = document.getElementsByClassName("infordinner");
+        let string;
+
+            let firstday = normal[0];
+            let menubreakfast = firstday.sang;
+            let menulunch = firstday.trua;
+            let menusnack = firstday.phu;
+            let menudinner = firstday.toi;
+
+            var randmenubreakfast = menubreakfast[Math.floor(Math.random() * menubreakfast.length)];
+            let getArrayMenuBreakfast = randmenubreakfast.menu;
+
+            var randmenulunch = menulunch[Math.floor(Math.random() * menulunch.length)];
+            let getArrayMenuLunch = randmenulunch.menu;
+
+            var randmenusnack = menusnack[Math.floor(Math.random() * menusnack.length)];
+            let getArrayMenuSnack = randmenusnack.menu;
+
+            var randmenudinner = menudinner[Math.floor(Math.random() * menudinner.length)];
+            let getArrayMenuDinner = randmenudinner.menu;
+            for (let d = 0; d < getArrayMenuBreakfast.length; d++) {
+                anhbreakfast[d].src = "../images_Type2/" + randmenubreakfast.image[d];
+                inforbreakfast[d].innerHTML = getArrayMenuBreakfast[d];
+            }
+            for (let d = 0; d < getArrayMenuLunch.length; d++) {
+                anhlunch[d].src = "../images_Type2/" + randmenulunch.image[d];
+                inforlunch[d].innerHTML = getArrayMenuLunch[d];
+            }
+            for (let d = 0; d < getArrayMenuSnack.length; d++) {
+                anhsnack[d].src = "../images_Type2/" + randmenusnack.image[d];
+                inforsnack[d].innerHTML = getArrayMenuSnack[d];
+            }
+            for (let d = 0; d < getArrayMenuDinner.length; d++) {
+                anhdinner[d].src = "../images_Type2/" + randmenudinner.image[d];
+                infordinner[d].innerHTML = getArrayMenuDinner[d];
+            }
 
 for (let i = 0; i < normal.length; i++) {
     day_clicked = document.getElementById(`${i}`);

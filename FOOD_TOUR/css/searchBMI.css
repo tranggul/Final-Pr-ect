@@ -3,8 +3,7 @@ body {
     background-image: url("../images/minh.jpg");
     background-size: cover;
       background-repeat: none;
-      width: 1289px;
-      height: 650px;
+    
   }
   
   /*the container must be positioned relative:*/
@@ -62,3 +61,4 @@ body {
   }
   #searchBMI{
       display: flex;
+  }

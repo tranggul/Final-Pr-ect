@@ -20,34 +20,47 @@
 
 body {
     font-family: 'Slabo 27px', serif;
+    background-image: url("../images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .bg-img {
-    top: 40%;
-    position: absolute;
-    background-image: url("../images/bgg.jpg");
+    /* top: 40%;
+    position: absolute; */
+   
+    /* background-repeat: no-repeat;
+  background-attachment: fixed;
     height: 500%;
     width: 100%;
     background-size: cover;
     background-repeat: repeat-y;
     background-position: center;
     filter: blur(8px);
-    -webkit-filter: blur(8px);
+    -webkit-filter: blur(8px); */
 }
 
 .contentbody {
     color: white;
     position: absolute;
-    top: 48%;
+    /* top: 48%; */
     z-index: 2;
+    width: 80%;
+    margin-left: 100px;
+    margin-right: auto;
+    height:500%;
+    background-color: white;
+    
 }
 
 .t {
     display: inline-block;
-    width: 12.5%;
+    padding: 10px;
     font-size: 25px;
     cursor: pointer;
     user-select: none;
+    color: orangered;
 }
 
 .sp {
@@ -55,25 +68,33 @@ body {
 }
 
 .text{
-    color: white;
+    color: orangered;
     font-size: 40px;
+   font-family: 'Dancing Script';
 }
 
 .content {
     text-align: center;
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
- 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+.group-days{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .span {
     font-size: 150%;
-    width: 100vw;
+    /* width: 79vw; */
     text-align: center;
-    border: 3px solid #f1f1f1; 
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(61, 53, 53, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid white; 
+    background-color: white;
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(61, 53, 53, 0.4); */
+     /* Black w/opacity/see-through */
 }
 
 #span {
@@ -92,13 +113,153 @@ body {
     height:80px;
     border-radius: 100%;
     margin-top: 20px;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     -webkit-box-shadow: 15px 11px 30px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 11px 30px 0px rgba(0,0,0,0.75);
     box-shadow: 15px 11px 30px 0px rgba(0,0,0,0.75);
+
+}
+.anhbreakfast:hover,.anhlunch:hover,.anhsnack:hover,.anhdinner:hover , .anhsnack:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 }
 .col1{
     display: flex;
     flex-wrap: nowrap;
 }
+.col2{
+    margin-right: 280px;
+}
+.infor{
+    color: orangered
+}
+#breakfast, #lunch, #snack, #dinner{
+    margin-top: 20px;
+   
+   
+}
+
+
+
+
+
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:white;
+    /* position: absolute; */
+}
+ 
+.header1{
+    background-color: #8B8970;
+}
+ 
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px -56px;
+    height: 30px;
+}
+ 
+.fa-facebook , .fa-twitter ,.fa-instagram {
+    color: white;
+    margin-left: 5%;
+}
+ 
+.inner_header{
+    width: 68%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+ 
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+ 
+.logo_container  h1{
+    color: #770000;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: 200px;
+}
+ 
+.logo_container  h1 span{
+    font-weight: bold;
+}
+ 
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+ 
+.navigation a :last-child{
+    padding-right: 0;
+}
+ 
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:#770000;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+#header11 {
+    width: 100%;
+}
+ 
+/* HET HEADER  */
+ 
+/* FOOTER */
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color:  #8B8970;
+    height: fit-content;
+}
+ 
+.inner_footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: white;
+}
+ 
+.inner_footer .footer_third a {
+    display: block;
+    margin-top: 5px;
+    color: white;
+}
+ 
+/* HET FOOTER  */
