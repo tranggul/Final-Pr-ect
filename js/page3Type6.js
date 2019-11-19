@@ -239,7 +239,7 @@ if(count > 0 &&count<2){
             firstMenu.insertAdjacentHTML('afterbegin',
                 `<div class = "contentbody">
                 <div id="breakfast">
-                <div class="breakfast spann">
+                <div class="breakfast span">
                     <p class = "text">BREAKFAST</p>
                 </div>
                 <div class="content">
@@ -264,7 +264,7 @@ if(count > 0 &&count<2){
                 </div>
            
             <div id="lunch">
-            <div class="lunch spann">
+            <div class="lunch span">
                 <p class = "text">LUNCH</p>
             </div>
             <div class="content">
@@ -291,7 +291,7 @@ if(count > 0 &&count<2){
         </div>
         
                     <div id="dinner">
-                        <div class="dinner spann">
+                        <div class="dinner span">
                             <p class = "text">DINNER</p>
                         </div>
                         <div class="content">
