@@ -75,8 +75,3 @@ calculate.addEventListener("click", calculateBMI);
  
 // })
 //   }
-let comment = document.getElementById('comment');
-comment.addEventListener('click',()=>{
-  document.location.href = '../html/enterFeedback.html';
-})
-let 

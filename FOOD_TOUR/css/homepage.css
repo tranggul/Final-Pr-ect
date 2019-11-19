@@ -207,9 +207,15 @@ button:hover {
 #header11 {
     width: 100%;
 }
+/* <<<<<<< HEAD */
 
 /* HET HEADER  */
 
+/* ======= */
+#search{
+    margin-left: 30px;
+}
+/* >>>>>>> a7946ebef1d92cd5890c14c6077935ace5fad7b5 */
 /* FOOTER */
 .footer{
     margin-top: 20px;
@@ -237,12 +243,13 @@ button:hover {
     margin-top: 5px;
     color: white;
 }
-#comment{
+/* #comment{
     margin-left: 350px;
 } 
 #boxcomment{
     margin-left: 300px;;
-}
+} */
+
 
 /* .inner_footer .footer_third > span {
     margin-top: 10px;
