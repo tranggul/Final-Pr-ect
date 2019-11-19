@@ -35,7 +35,9 @@ body {
 .omg{
     font-family: 'Dancing Script';
     font-size: 180px;
-    margin-left: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
     color: #770000;
     margin-top: -5%;
 }
@@ -45,7 +47,8 @@ body {
     width: 60%;
     text-align: center;
     font-size: 30px;
-    margin-left: 34%;
+    margin-left: auto;
+    margin-right: auto;
     color: #770000;
     margin-top: 10px;
 }
@@ -60,7 +63,8 @@ body {
 }
 
 .enter input {
-    margin-left: 41%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
     display: block;
     width: 500px;
@@ -80,14 +84,16 @@ body {
     font-family: 'Dancing Script';
     color: white;
     font-size: 50px;
-    margin-top: 50px;
-    margin-left: 51%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #book{
     font-size: 62px;
     margin-top: 19px;
-    margin-left: 49%;
+    margin-left: auto;
+    margin-right: auto;
     width: 312px;
 }
 
@@ -144,8 +150,6 @@ button:hover {
 .fa-facebook , .fa-twitter ,.fa-instagram {
     color: white;
     margin-left: 5%;
-
-
 } 
 .inner_header{
     width: 90%;

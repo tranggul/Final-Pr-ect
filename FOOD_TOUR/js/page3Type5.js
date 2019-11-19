@@ -387,7 +387,7 @@ first.addEventListener("click", () => {
         firstMenu.insertAdjacentHTML('afterbegin',
             `<div class = "contentbody">
             <div id="breakfast">
-                <div class="breakfast span">
+                <div class="breakfast spann">
                     <p id = "text">BREAKFAST</p>
                 </div>
                 <div class="content">
@@ -420,7 +420,7 @@ first.addEventListener("click", () => {
                 </div>
             </div>
             <div id="lunch">
-            <div class="lunch span">
+            <div class="lunch spann">
                 <p id = "text">LUNCH</p>
             </div>
             <div class="content">
@@ -451,7 +451,7 @@ first.addEventListener("click", () => {
             </div>
         </div>
         <div id="snack">
-                        <div class="snack span">
+                        <div class="snack spann">
                             <p id = "text">SNACK</p>
                         </div>
                         <div class="content">
@@ -475,7 +475,7 @@ first.addEventListener("click", () => {
                         </div>
                     </div>
                     <div id="dinner">
-                        <div class="dinner span">
+                        <div class="dinner spann">
                             <p id = "text">DINNER</p>
                         </div>
                         <div class="content">

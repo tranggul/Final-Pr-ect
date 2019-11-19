@@ -120,34 +120,8 @@
     color: white;
 }
 
-.footer{
-    margin-top: 40px;
-    width: 100vw;
-    display: block;
-    padding: 20px 0;
-    box-sizing: border-box;
-    background-color:  #8B8970;
-    height: 32%;
-}
-
-.inner_footer{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
-    font-family: "Montserrat";
-    font-size: 15px;
-    color: white;
-}
-
-.inner_footer .footer_third a {
-    display: block;
-    margin-top: 5px;
-    color: white;
-}
-
 /* HET FOOTER  */
+
 .content {
     font-family: 'Bebas Neue', cursive;
 }
@@ -194,7 +168,8 @@
 .bottom {
     position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
     top: 50%;
 }
 
