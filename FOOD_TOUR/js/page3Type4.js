@@ -140,7 +140,7 @@ const beophido1 = [
         image: ['comgaolut.jpg',  'beefsteak.jpg'],  calo : '500'
         },
         {menu: ["sandwich ức gà ","salad cà chua dưa chuột"],
-        image: ['sandwichucga.jpg',  'saladcachuaduachuot.jpg'], calo : '400'
+        image: ['banhmisandwichkepucga.jpg',  'saladcachuaduachuot.jpg'], calo : '400'
         },
     ],
  
@@ -208,7 +208,7 @@ const beophido1 = [
 {
     sang:[
         {menu: ["bánh mì nướng ăn kèm chuối thá lát", "1 cốc nước dừa"],
-        image: 'banhminuongchuoi.jpg', image2: 'nuocdua.jpg', calo : '340'
+        image: ['banhminuongchuoi.jpg',  'nuocdua.jpg'], calo : '340'
         },
         {menu: ["3/4 cốc smoothie và hạnh nhân", "1 ly trà bưởi"],
         image: ['smoothie.jpg',  'trabuoi.jpg'], calo : '340'
@@ -230,7 +230,7 @@ const beophido1 = [
         image: ['kemdua.jpg'],  calo : "150",
         },
         {menu: ["100ml sữa tươi k đường"],
-        image: ['suatuoikhongduong.jpg']  ,calo : "100",
+        image: ['suakhongduong.jpg']  ,calo : "100",
         }
     ],
  
@@ -250,10 +250,10 @@ const beophido1 = [
 {
     sang:[
         {menu: ["2 quả trứng luộc","1 ly sữa không đường"],
-        image: ['trungluoc.jpg',  'suatuoikhongduong.jpg'], calo : '340'
+        image: ['trungluoc.jpg',  'suakhongduong.jpg'], calo : '340'
         },
         {menu: ["bánh mì nguyên cám","sữa chua không đường"],
-        image: ['banhminguyencam.jpg',  'suachuakhongbeo.jpg'], calo : '340'
+        image: ['banhmuffinnguyencam.jpg',  'suachuakhongbeo.jpg'], calo : '340'
         },
  
     ],
@@ -269,7 +269,7 @@ const beophido1 = [
  
     phu: [
         {menu: ["2 múi bưởi"],
-        image: ['muibuoi'],   calo : "150",
+        image: ['muibuoi.jpg'],   calo : "150",
         },
         {menu: ["sữa chua k đường"],
         image: ['suachuakhongbeo.jpg'],   calo : "100",
@@ -365,12 +365,7 @@ if(count > 0 && count < 2){
                                     </span>
                                 </div>
        
-                                <div class="mon2" id="mon2">
-                                    <span class='sp'>
-                                        <img class ="anhsnack anh" src="" alt="">
-                                        <p id='info2' class="inforsnack infor"></p>
-                                    </span>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -396,14 +391,7 @@ if(count > 0 && count < 2){
                                 </div>
                             </div>
        
-                            <div class="col2">
-                                <div class="mon3" id="mon3">
-                                    <span class='sp'>
-                                        <img  class ="anhdinner anh" src="" alt="">
-                                        <p id='info3' class="infordinner infor"></p>
-                                    </span>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

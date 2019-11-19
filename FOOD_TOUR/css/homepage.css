@@ -212,7 +212,9 @@ button:hover {
     list-style: none;
     text-decoration: none;
 }
-
+#search{
+    margin-left: 30px;
+}
 /* FOOTER */
 .footer{
     margin-top: 40px;
@@ -240,12 +242,13 @@ button:hover {
     margin-top: 5px;
     color: white;
 }
-#comment{
+/* #comment{
     margin-left: 350px;
 } 
 #boxcomment{
     margin-left: 300px;;
-}
+} */
+
 
 /* .inner_footer .footer_third > span {
     margin-top: 10px;
